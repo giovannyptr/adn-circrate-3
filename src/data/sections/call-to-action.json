@@ -1,0 +1,28 @@
+{
+    "title": "Celebrating Our Achievement",
+    "subtitle": "Marine clay waste",
+    "littletitle": "10 Mt Marine Clay Waste",
+    "description1": "Circrete has been recognized for its groundbreaking work in sustainable construction. Our dedication to innovation and environmental stewardship has earned us several prestigious awards",
+    "subtitle2": "Cement Emission Challenge",
+    "littletitle2": "2022",
+    "description2": "Excellence Award from Singapore  Concrete Institute",
+    "littletitle3": "2023",
+    "description3": "NUS GRIP LIFT 9 FUNDING",
+    "description": "Explore our innovative ideas.",
+    "image": {
+        "url": "/img/1.png",
+        "alt": "A creative hand illustration"
+    },
+    "image2": {
+        "url": "/img/3.png",
+        "alt": "A secondary image"
+    },
+    "items": [
+        {
+            "label": "Idea 1",
+            "link": "/idea-1",
+            "icon": "/img/icons/idea1.svg"
+        }
+    ]
+  }
+  

@@ -1,0 +1,27 @@
+{
+  "title": "Solving Two Problems, One Solution",
+  "subtitle": "Marine clay waste",
+  "littletitle": "10 Mt Marine Clay Waste",
+  "description1": "Disposed annually",
+  "subtitle2": "Cement Emission Challenge",
+  "littletitle2": "3 GT CARBON",
+  "description2": "Emission from Cement industry",
+  "littletitle3": "8% of Global Carbon Emissions",
+  "description3": "Cement industry’s contribution",
+  "description": "Explore our innovative ideas.",
+  "image": {
+      "url": "/img/1.png",
+      "alt": "A creative hand illustration"
+  },
+  "image2": {
+      "url": "/img/3.png",
+      "alt": "A secondary image"
+  },
+  "items": [
+      {
+          "label": "Idea 1",
+          "link": "/idea-1",
+          "icon": "/img/icons/idea1.svg"
+      }
+  ]
+}

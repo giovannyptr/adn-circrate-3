@@ -1,0 +1,26 @@
+[
+  {
+      "id": 1,
+      "name": "Jerry Wang ",
+      "role": "Venture Architect",
+      "image": "/img/faces/2.png"
+  },
+  {
+      "id": 2,
+      "name": "Alex Tay",
+      "role": "Commercial Champion",
+      "image": "/img/faces/1.png"
+  },
+  {
+      "id": 3,
+      "name": "Mark Johnson",
+      "role": "UI/UX Designer",
+      "image": "/images/mark-johnson.jpg"
+  },
+  {
+      "id": 4,
+      "name": "Emily Davis",
+      "role": "QA Engineer",
+      "image": "/images/emily-davis.jpg"
+  }
+]

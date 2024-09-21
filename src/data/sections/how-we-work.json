@@ -1,0 +1,22 @@
+{
+    "title": "Elevate Your ESG Score with Circrete",
+    "subtitle": "",
+    "text": "By using Circrete, companies can significantly reduce their Scope 3 carbon emissions,<br> demonstrating their commitment to environmental sustainability.",
+    "items": [
+        {
+            "title": "Lower Carbon Emissions",
+            "icon": "/img/icons/7.svg",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+        },
+        {
+            "title": "High-Quality Performance",
+            "icon": "/img/icons/8.svg",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+        },
+        {
+            "title": "Sustainable Innovation",
+            "icon": "/img/icons/9.svg",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+        }
+    ]
+}

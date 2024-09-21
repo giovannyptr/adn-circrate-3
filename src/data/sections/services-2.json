@@ -1,0 +1,21 @@
+{
+    "title": "The Carbon <br> Footprint of Cement",
+    "description": "Conventional cement production is responsible for 84% <br> of CO₂ emissions, primarily due to calcination and <br> heating processes.",
+    "items": [
+        {
+            "title": "Architecture",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ultrices gravida.",
+            "link": "/services/service-1"
+        },
+        {
+            "title": "Interior Design",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ultrices gravida.",
+            "link": "/services/service-2"
+        },
+        {
+            "title": "Planning",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ultrices gravida.",
+            "link": "/services/service-3"
+        }
+    ]
+}

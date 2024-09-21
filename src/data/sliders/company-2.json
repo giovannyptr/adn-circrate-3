@@ -1,0 +1,23 @@
+{
+    "title": "Leading the Way with Patented Technology",
+    "subtitle": "Circrete Innovation",
+    "description": "Our innovative green cement technology is backed by x number of patents, reflecting our dedication to sustainability and driving change in the construction industry.",
+    "button": {
+        "label": "See Projects",
+        "link": "/portfolio"
+    },
+    "items": [
+        {
+            "image": "/img/Container.png",
+            "alt": "image"
+        },
+        {
+            "image": "/img/photo/7.jpg",
+            "alt": "image"
+        },
+        {
+            "image": "/img/photo/1.jpg",
+            "alt": "image"
+        }
+    ]
+}

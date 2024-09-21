@@ -1,0 +1,23 @@
+{
+  "title": "Certified to EN 197-1:2000 Standards",
+  "subtitle": "Circrete Innovation",
+  "description": "Circrete meets the stringent EN 197-1:2000 standards, ensuring safety, quality, and reliability in every batch.",
+  "button": {
+      "label": "See Projects",
+      "link": "/portfolio"
+  },
+  "items": [
+      {
+          "image": "/img/Rectangle.png",
+          "alt": "image"
+      },
+      {
+          "image": "/img/photo/7.jpg",
+          "alt": "image"
+      },
+      {
+          "image": "/img/photo/1.jpg",
+          "alt": "image"
+      }
+  ]
+}

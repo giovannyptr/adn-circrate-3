@@ -1,0 +1,28 @@
+{
+    "title": "Leadership Board",
+    "subtitle": "Our Team",
+    "button": {
+        "label": "See All",
+        "link": "/blog"
+    },
+    "items": [
+        {
+            "title": "Dr. Pang Sze Dai",
+            "subtitle": "CTO/Inventor",
+            "icon": "/img/faces/im1.png",
+            "text": "Associate Professor at NUS in Civil and Environmental Engineering, Dr. Pang is a leading expert in materials science with over x years of experience. He brings deep expertise in sustainable building technologies and protective systems, having led numerous high-impact research projects that drive innovation at Circrete."
+        },
+        {
+            "title": "Dr. Tong Shanshan",
+            "subtitle": "CEO",
+            "icon": "/img/faces/im2.png",
+            "text": "Dr. Tong has x years of experience specializing in urban built environments and energy-efficient building designs. Her work focuses on building envelope performance, microclimate monitoring, and passive building design, ensuring Circrete’s solutions foster sustainable and comfortable living spaces."
+        },
+        {
+            "title": "Dr. Du Hongjian",
+            "subtitle": "Technical Advisor/Inventor",
+            "icon": "/img/faces/im3.png",
+            "text": "With over x years of experience, Dr. Du is a pioneer in low-carbon building materials and 3D concrete printing. His award-winning research focuses on reducing carbon emissions and upcycling waste, positioning Circrete as a leader in sustainable cement innovation."
+        }
+    ]
+}

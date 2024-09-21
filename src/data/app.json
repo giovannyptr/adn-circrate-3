@@ -1,0 +1,133 @@
+{
+    "settings": {
+        "siteName": "Circrate",
+        "siteDescription": "",
+        "formspreeURL": "https://formspree.io/f/your_api_key",
+        "mailchimp": {
+            "url": "",
+            "key": ""
+        },
+        "perPage": 6
+    },
+    "header": {
+        "logo": {
+            "image": "/img/logo/logo.svg",
+            "alt": "Logo"
+        },
+        "menu": [
+            {
+                "label": "Home",
+                "link": "/"
+               
+            },
+            {
+                "label": "About",
+                "link": "/about"
+                
+            },
+            {
+                "label": "Our Solution",
+                "link": "/insight"
+                
+            },
+            {
+                "label": "Blog",
+                "link": "/blog"
+              
+            },
+            {
+                "label": "Contact Us",
+                "link": "/contact",
+                "children": 0
+            },
+            {
+                "label": "Other",
+                "link": "/team"
+               
+            }
+        ]
+    },
+    "footer": {
+        "logo": {
+            "image": "/img/logo/logo-light.png",
+            "alt": "Logo"
+        },
+        "copy": "© 2024 ADN. All rights reserved.",
+        "menu": [
+            {
+                "label": "About",
+                "link": "/about"
+            },
+            {
+                "label": "Services",
+                "link": "/services"
+            },
+            {
+                "label": "Projects",
+                "link": "/projects"
+            },
+            {
+                "label": "Blog",
+                "link": "/blog"
+            },
+            {
+                "label": "Contact",
+                "link": "/contact"
+            }
+        ]
+    },
+    "social": [
+        {
+            "link": "https://facebook.com",
+            "title": "Facebook"
+        },
+        {
+            "link": "https://twitter.com",
+            "title": "Twitter"
+        },
+        {
+            "link": "https://instagram.com",
+            "title": "Instagram"
+        },
+        {
+            "link": "https://youtube.com",
+            "title": "Youtube"
+        }
+    ],
+    "projects": {
+        "categories": [
+            {
+                "name": "Architecture",
+                "slug": "architecture"
+            },
+            {
+                "name": "Interior",
+                "slug": "interior"
+            },
+            {
+                "name": "Decor",
+                "slug": "decor"
+            }
+        ]
+    },
+    "team": {
+        "categories": [
+            {
+                "name": "Executive",
+                "slug": "executive"
+            },
+            {
+                "name": "Data centers",
+                "slug": "data-centers"
+            },
+            {
+                "name": "Education",
+                "slug": "education"
+            },
+            {
+                "name": "Workplace",
+                "slug": "workplace"
+            }
+        ]
+    }
+}

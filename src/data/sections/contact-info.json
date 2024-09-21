@@ -1,0 +1,24 @@
+{
+    "title": "The Circrete Difference",
+    "subtitle": "Marine clay waste",
+    "littletitle": "10 Mt Marine Clay Waste",
+    "description1": "Conventional cement production is responsible for 84% of CO₂ emissions, primarily due to calcination and heating processes.",
+    "subtitle2": "Circrete’s innovative approach transforms the process:",
+    "littletitle2": "3 GT CARBON",
+    "description2": "Circrete’s innovative approach transforms the process:",
+    "littletitle3": "8% of Global Carbon Emissions",
+    "description3": "Cement industry’s contribution",
+    "description": "Explore our innovative ideas.",
+    "image": {
+        "url": "/img/16.png",
+        "alt": "A creative hand illustration"
+    },
+    "image2": {
+        "url": "/img/ss1.png",
+        "alt": "A secondary image"
+    },
+    "items": [
+        "0% CO₂ from Calcination",
+        "50% Less CO₂ in Heating"
+    ]
+}

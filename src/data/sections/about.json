@@ -1,0 +1,17 @@
+{
+    "image": {
+        "url": "/img/2.jpg.png",
+        "alt": "img"
+    },
+    "number": {
+        "value": "15+",
+        "label": "<span class=\"mil-marker\">Years</span>of <br> R & D <br> process"
+    },
+    "title": "Transforms Marine Clay into Green Cement",
+    "subtitle": "Circrete Solution",
+    "description": "Developed by research team from National University of Singapore with decades of expertise. Circrete's green cement is a groundbreaking innovation. By repurposing marine clay waste, we've created a high-quality green cement.",
+    "button": {
+        "link": "https://www.youtube.com/watch?v=HR4giV4oUjI",
+        "label": "Learn more"
+    }
+}
