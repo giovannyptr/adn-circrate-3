@@ -39,12 +39,8 @@
                 "label": "Partnership",
                 "link": "/partnership",
                 "children": 0
-            },
-            {
-                "label": "Other",
-                "link": "/team"
-               
             }
+           
         ]
     },
     "footer": {
@@ -72,7 +68,7 @@
             },
             {
                 "label": "Contact",
-                "link": "/contact"
+                "link": "/partnership"
             }
         ]
     },
