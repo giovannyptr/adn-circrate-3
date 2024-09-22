@@ -26,7 +26,7 @@ const IdeasSection = () => {
                         </div>
                         <div className="col-lg-6 col-12">
                             <div className="row">
-                                <div className="col-md-6 col-12 mb-4 mb-md-0">
+                                <div className="col-md-5" style={{ margin: '1rem' }}>
                                     <img
                                         src="/img/cards/card1.svg"
                                         alt="First Card"
@@ -36,7 +36,7 @@ const IdeasSection = () => {
                                         style={{ width: '100%', objectFit: 'contain' }}
                                     />
                                 </div>
-                                <div className="col-md-6 col-12">
+                                <div className="col-md-5" style={{ margin: '1rem' }}>
                                     <img
                                         src="/img/cards/card2.svg"
                                         alt="Second Card"

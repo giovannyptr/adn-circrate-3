@@ -10,17 +10,17 @@ const IdeasGreenSection = () => {
                     <div className="mil-background-grid mil-softened" />
 
                     <div className="row justify-content-between">
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 col-12">
 
                             <div>
-                                <span 
-                                    className="mil-suptitle mil-upper mil-up mil-mb-30" 
-                                    dangerouslySetInnerHTML={{ __html: Data.subtitle }} 
+                                <span
+                                    className="mil-suptitle mil-upper mil-up mil-mb-30"
+                                    dangerouslySetInnerHTML={{ __html: Data.subtitle }}
                                     style={{ color: "white" }} // Ensure white subtitle
                                 />
-                                <h2 
-                                    className="mil-upper mil-up mil-mb-30" 
-                                    dangerouslySetInnerHTML={{ __html: Data.title }} 
+                                <h2
+                                    className="mil-upper mil-up mil-mb-30"
+                                    dangerouslySetInnerHTML={{ __html: Data.title }}
                                     style={{ color: "white" }} // Ensure white title
                                 />
                                 <ul className="mil-icon-list mil-mb-60">
@@ -36,20 +36,29 @@ const IdeasGreenSection = () => {
                             </div>
 
                         </div>
-                        <div className="col-lg-5 mil-mt-suptitle-offset">
-
-                            <div className="row">
-                                <div className="mil-image-frame">
-                                    <img 
-                                        src={Data.image.url} 
-                                        alt={Data.image.alt} 
-                                        className="mil-scale" 
-                                        data-value-1="1" 
-                                        data-value-2="1.3" 
+                        <div className="col-lg-6 col-12">
+                            <div className="row" style={{ marginTop: '5rem' }}>
+                                <div className="col-md-5" style={{ margin: '1rem' }}>
+                                    <img
+                                        src="/img/cards/card1.svg"
+                                        alt="First Card"
+                                        className="mil-scale"
+                                        data-value-1="1"
+                                        data-value-2="1.3"
+                                        style={{ width: '100%', objectFit: 'contain' }}
+                                    />
+                                </div>
+                                <div className="col-md-5" style={{ margin: '1rem' }}>
+                                    <img
+                                        src="/img/cards/card2.svg"
+                                        alt="Second Card"
+                                        className="mil-scale"
+                                        data-value-1="1"
+                                        data-value-2="1.3"
+                                        style={{ width: '100%', objectFit: 'contain' }}
                                     />
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>

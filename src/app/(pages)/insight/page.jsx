@@ -11,6 +11,7 @@ import ServicesTwoSection from "@components/sections/ServicesTwo";
 import IdeasGreenSection from "../../_components/sections/IdeasGreen";
 import ProductSpecification from "../../_components/sections/Product";
 import CompanyOneSlider from "../../_components/sliders/CompanyOne";
+import IdeasSection from "../../_components/sections/Ideas";
 
 
 const PartnersSlider = dynamic(() => import("@components/sliders/Partners"), { ssr: false });
@@ -35,10 +36,10 @@ const About = () => {
         bgImage={"/img/covers/solution.png"}
       />
       <ServicesTwoSection />
-      {/* <span className="mil-suptitle mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{ __html: '' }} /> */}
       <ContactInfoSection />
 
       <IdeasGreenSection />
+      {/* <IdeasSection /> */}
       <ProductSpecification />
       <CompanyOneSlider />
       <CompanyTwoSlider />

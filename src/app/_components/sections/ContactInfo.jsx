@@ -18,45 +18,6 @@ const ContactInfoSection = () => {
                                 />
                             </div>
                         </div>
-                        <div className="col-lg-6">
-                            <p
-                                className="mil-mb-90"
-                                style={{ fontWeight: 'bold' }}
-                                dangerouslySetInnerHTML={{ __html: Data.description }}
-                            />
-                        </div>
-                    </div>
-
-                    <div>
-                        {Data.image3 && (
-                            <div className="mil-mb-30">
-                                <img
-                                    src={Data.image3.url}
-                                    alt={Data.image3.alt}
-                                    className="img-fluid"
-                                    style={{ maxWidth: '100%', height: 'auto' }}
-                                />
-                            </div>
-                        )}
-                    </div>
-
-                    <div className="row justify-content-between">
-                        <div className="col-lg-12"></div>
-                        {/* Render image2 with sizing */}
-                        <div className="col-lg-6">
-                            {Data.image2 && (
-                                <div className="mil-mb-30">
-                                    <img
-                                        src={Data.image2.url}
-                                        alt={Data.image2.alt}
-                                        className="img-fluid"
-                                        style={{ maxWidth: '100%', height: 'auto', maxHeight: '400px' }}
-                                    />
-                                </div>
-                            )}
-                        </div>
-
-                        {/* Render description2 with ul and li items */}
                         <div className="col-lg-6" style={{ marginTop: "2rem" }}>
                             {Data.description2 && (
                                 <div className="mil-mb-30">
@@ -65,8 +26,6 @@ const ContactInfoSection = () => {
                                         style={{ fontWeight: 'bold' }} // Make the paragraph text bold
                                         dangerouslySetInnerHTML={{ __html: Data.description2 }}
                                     />
-
-                                    {/* Render list items with padding and spacing */}
                                     {Data.items && (
                                         <ul className="mil-up" style={{ paddingLeft: "20px" }}>
                                             {Data.items.map((item, index) => (
@@ -85,6 +44,43 @@ const ContactInfoSection = () => {
                                     )}
                                 </div>
                             )}
+                        </div>
+                    </div>
+
+                    <div>
+                        {Data.image3 && (
+                            <div className="mil-mb-30">
+                                <img
+                                    src={Data.image3.url}
+                                    alt={Data.image3.alt}
+                                    className="img-fluid"
+                                    style={{ maxWidth: '100%', height: 'auto' }}
+                                />
+                            </div>
+                        )}
+                    </div>
+
+                    <div className="row justify-content-between">
+                        {/* Render image2 with sizing */}
+                        <div className="col-lg-6">
+                            {Data.image2 && (
+                                <div className="mil-mb-30">
+                                    <img
+                                        src={Data.image2.url}
+                                        alt={Data.image2.alt}
+                                        className="img-fluid"
+                                        style={{ maxWidth: '100%', height: 'auto', maxHeight: '400px' }}
+                                    />
+                                </div>
+                            )}
+                        </div>
+
+                        <div className="col-lg-6" style={{ marginTop: '5rem' }}>
+                            <p
+                                className="mil-mb-90"
+                                style={{ fontWeight: 'bold' }}
+                                dangerouslySetInnerHTML={{ __html: Data.description }}
+                            />
                         </div>
 
                     </div>
