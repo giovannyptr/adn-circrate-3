@@ -369,7 +369,7 @@ suptitle
         height: 5px;
         width: 60px;
         background-color: transparent;
-        border: 3px solid $dt-10;
+        // border: 3px solid $dt-10;
         border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 3;
         transition: $t-md;
     }
@@ -377,7 +377,7 @@ suptitle
     &.mil-light {
         &:after {
             background-color: transparent;
-            border: 3px solid $lt-10;
+            // border: 3px solid $lt-10;
             border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $lt-10 1px, $lt-10 3px) 3;
         }
     }
@@ -387,7 +387,7 @@ suptitle
     height: 5px;
     width: 60px;
     background-color: transparent;
-    border: 3px solid $dt-10;
+    // border: 3px solid $dt-10;
     border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 3;
     transition: $t-md;
 }
@@ -396,7 +396,7 @@ suptitle
     height: 5px;
     width: 100%;
     background-color: transparent;
-    border: 3px solid $dt-10;
+    // border: 3px solid $dt-10;
     border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 3;
     transition: $t-md;
 }
@@ -491,7 +491,7 @@ button
 
     &.mil-transparent-button {
         background-color: transparent;
-        border: solid 1px $dark;
+        // border: solid 1px $dark;
     }
 
     &.mil-fw {
@@ -511,7 +511,7 @@ button
 
 .mil-mini-button {
     background-color: transparent;
-    border: solid 1px $dark;
+    // border: solid 1px $dark;
     padding: 0 15px;
     height: 35px;
     cursor: pointer;
@@ -624,7 +624,7 @@ list
             display: inline;
             width: 6px;
             height: 6px;
-            border: solid 1px $dark;
+            // border: solid 1px $dark;
             background-color: $accent;
             transform: rotate(45deg);
             margin-right: 15px;
