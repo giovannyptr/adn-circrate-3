@@ -18,7 +18,7 @@ const ContactInfoSection = () => {
                                 />
                             </div>
                         </div>
-                        <div className="col-lg-6" style={{ marginTop: "2rem" }}>
+                        <div className="col-lg-6">
                             {Data.description2 && (
                                 <div className="mil-mb-30">
                                     <p
