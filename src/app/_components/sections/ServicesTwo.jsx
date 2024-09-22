@@ -30,7 +30,13 @@ const ServicesTwoSection = () => {
                     {/* Image below the title and description */}
                     <div className="row mt-4">
                         <div className="col-12 text-center">
-                            <img src="/img/cement_process_before.png" alt="CO2 emission in cement production" className="img-fluid" />
+                            {/* <img src="/img/cement_process_before.png" alt="CO2 emission in cement production" className="img-fluid" /> */}
+                            <img
+                                src="/img/cement_process_before.png"
+                                alt="CO2 emission in cement production"
+                                className="img-fluid"
+                                style={{ maxWidth: '100%', height: 'auto', maxHeight: '400px' }}
+                            />
                         </div>
                     </div>
                 </div>

@@ -42,9 +42,9 @@ const IdeasGreenSection = () => {
                                     <img
                                         src="/img/cards/card1.svg"
                                         alt="First Card"
-                                        className="mil-scale"
-                                        data-value-1="1"
-                                        data-value-2="1.3"
+                                        // className="mil-scale"
+                                        // data-value-1="1"
+                                        // data-value-2="1.3"
                                         style={{ width: '100%', objectFit: 'contain' }}
                                     />
                                 </div>
@@ -52,9 +52,9 @@ const IdeasGreenSection = () => {
                                     <img
                                         src="/img/cards/card2.svg"
                                         alt="Second Card"
-                                        className="mil-scale"
-                                        data-value-1="1"
-                                        data-value-2="1.3"
+                                        // className="mil-scale"
+                                        // data-value-1="1"
+                                        // data-value-2="1.3"
                                         style={{ width: '100%', objectFit: 'contain' }}
                                     />
                                 </div>

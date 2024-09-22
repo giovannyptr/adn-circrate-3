@@ -26,23 +26,23 @@ const IdeasSection = () => {
                         </div>
                         <div className="col-lg-6 col-12">
                             <div className="row">
-                                <div className="col-md-5" style={{ margin: '1rem' }}>
+                                <div className="col-md-5 col-12" style={{ margin: '1rem 0' }}>
                                     <img
                                         src="/img/cards/card1.svg"
                                         alt="First Card"
-                                        className="mil-scale"
-                                        data-value-1="1"
-                                        data-value-2="1.3"
+                                        // className="mil-scale"
+                                        // data-value-1="1"
+                                        // data-value-2="1.3"
                                         style={{ width: '100%', objectFit: 'contain' }}
                                     />
                                 </div>
-                                <div className="col-md-5" style={{ margin: '1rem' }}>
+                                <div className="col-md-5 col-12" style={{ margin: '1rem 0' }}>
                                     <img
                                         src="/img/cards/card2.svg"
                                         alt="Second Card"
-                                        className="mil-scale"
-                                        data-value-1="1"
-                                        data-value-2="1.3"
+                                        // className="mil-scale"
+                                        // data-value-1="1"
+                                        // data-value-2="1.3"
                                         style={{ width: '100%', objectFit: 'contain' }}
                                     />
                                 </div>
