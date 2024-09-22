@@ -54,7 +54,7 @@ const LatestProjectsSection = ({ projects }) => {
               <div className="col-md-6 col-lg-3" key={`projects-row-${row_key}`}>
                 {row.map((item, key) => (
                   <Link
-                    href={`/projects/${item.id}`}
+                    href={`/partnership`} // Changed from `/projects/${item.id}` to `/partnership`
                     key={`projects-item-${key}`}
                     className={
                       row.length == 2

@@ -28,19 +28,26 @@ const VisionSection = () => {
                   </div>
                   <h5 className="mil-subtitle mil-mb-15">{item.subtitle}</h5>
                   <h4 className="mil-upper mil-mb-10">{item.title}</h4>
-                  <p>{item.text}</p>
+                  <div style={{ display: 'flex', justifyContent: 'center', marginTop: '10px', marginBottom: '20px' }}> {/* Increased bottom margin here */}
+                    {item.googleScholarLink && (
+                      <Link href={item.googleScholarLink} target="_blank" style={{ marginRight: '15px', display: 'flex', alignItems: 'center' }}>
+                        <img src="/img/google-scholar.png" alt="Google Scholar" style={{ width: '24px', height: '24px' }} />
+                        <span style={{ marginLeft: '8px' }}>Google Scholar</span>
+                      </Link>
+                    )}
+                    {item.linkedinLink && (
+                      <Link href={item.linkedinLink} target="_blank" style={{ display: 'flex', alignItems: 'center' }}>
+                        <img src="/img/linkedin.svg" alt="LinkedIn" style={{ width: '24px', height: '24px' }} />
+                        <span style={{ marginLeft: '8px' }}>LinkedIn</span>
+                      </Link>
+                    )}
+                  </div>
+                  <p style={{ marginTop: '20px' }}>{item.text}</p> {/* Increased top margin here */}
                 </div>
               </div>
             ))}
           </div>
-
-          <div className="row justify-content-center mil-center">
-            <div className="mil-center mil-up">
-              <Link href={Data.button.link} className="mil-link mil-upper">
-                {Data.button.label} <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span>
-              </Link>
-            </div>
-          </div>
+          
         </div>
       </section>
       {/* vision end */}

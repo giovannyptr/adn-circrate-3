@@ -1,46 +1,43 @@
 import Data from "@data/sections/how-we-work.json";
+import Link from "next/link";
 
 const HowWeWorkSection = () => {
   return (
     <>
-      {/* how we work */}
-      <section style={{ background: "var(--Green-Bg, #134832)", color: "#ffffff" }}>
-        <div className="container mil-p-90-60">
-          <div className="mil-background-grid mil-softened" />
+        {/* vision */}
+        <section style={{ backgroundColor: "var(--Green-Bg, #134832)" }}>
+            <div className="container" style={{ padding: '60px 120px', margin: '0 auto' }}> {/* Adjusted padding */}
+                <div className="mil-background-grid mil-softened" />
 
-          <div className="row">
-            <div className="col-12">
-              <div className="mil-center mil-mb-90">
-                <h2 className="mil-upper mil-up" 
-                    style={{ background: "var(--Green-Bg, #134832)", color: "#ffffff" }} 
-                    dangerouslySetInnerHTML={{ __html: Data.title }} />
-                <span className="mil-suptitle mil-upper mil-up mil-mb-30" 
-                      style={{ background: "var(--Green-Bg, #134832)", color: "#ffffff" }} 
-                      dangerouslySetInnerHTML={{ __html: Data.subtitle }} />
-                <p style={{ background: "var(--Green-Bg, #134832)", color: "#ffffff" }} 
-                   dangerouslySetInnerHTML={{ __html: Data.text }} />
-              </div>
-            </div>
-
-            {Data.items.map((item, key) => (
-              <div key={`howwework-item-${key}`} className="col-lg-4">
-                <div className="mil-hww mil-icon-box mil-up mil-mb-60" 
-                     style={{ background: "var(--Green-Bg, #134832)", color: "#ffffff" }}>
-                  <div className="mil-icon mil-icon-border mil-mb-30">
-                    <img src={item.icon} alt="icon" />
-                  </div>
-                  <h4 className="mil-upper mil-mb-20" 
-                      style={{ background: "var(--Green-Bg, #134832)", color: "#ffffff" }}>
-                    {item.title}
-                  </h4>
-                  <div className="mil-divider-sm mil-mb-20"></div>
+                <div className="mil-center" style={{ marginBottom: '60px' }}> {/* Reduced bottom margin */}
+                    <h2 className="mil-upper mil-up" dangerouslySetInnerHTML={{__html : Data.title}} style={{ color: "#FFFFFF" }} />
+                    <p className="mil-suptitle mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.subtitle}} style={{ color: "#FFFFFF" }} />
                 </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-      {/* how we work end */}
+
+                <div className="row">
+                    {Data.items.map((item, key) => (
+                    <div className="col-lg-4 mil-up" key={`vision-item-${key}`}>
+
+                        <div className="mil-icon-box mil-center" style={{ marginBottom: '30px', color: "#FFFFFF" }}> {/* Reduced bottom margin */}
+                            <div className="mil-icon mil-icon-xl mil-icon-border mil-mb-30">
+                                <img src={item.icon} alt={item.title} />
+                            </div>
+                            <h4 className="mil-upper" style={{ marginBottom: '15px', color: "#FFFFFF" }}>{item.title}</h4> {/* Adjusted margin */}
+                            {/* <p>{item.text}</p> */}
+                        </div>
+
+                    </div>
+                    ))}
+                </div>
+
+                {/* <div className="row justify-content-center mil-center">
+                    <div className="mil-center mil-up">
+                        <Link href={Data.button.link} className="mil-link mil-upper" style={{ color: "#FFFFFF" }}>{Data.button.label} <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span></Link>
+                    </div>
+                </div> */}
+            </div>
+        </section>
+        {/* vision end */}
     </>
   );
 };

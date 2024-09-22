@@ -51,23 +51,23 @@
         "copy": "© 2024 ADN. All rights reserved.",
         "menu": [
             {
+                "label": "Home",
+                "link": "/"
+            },
+            {
                 "label": "About",
                 "link": "/about"
             },
             {
-                "label": "Services",
-                "link": "/services"
-            },
-            {
-                "label": "Projects",
-                "link": "/projects"
+                "label": "Our Solution",
+                "link": "/insight"
             },
             {
                 "label": "Blog",
                 "link": "/blog"
             },
             {
-                "label": "Contact",
+                "label": "Partnerhiop",
                 "link": "/partnership"
             }
         ]

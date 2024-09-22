@@ -24,10 +24,11 @@ const AboutSection = () => {
                                 <span className="mil-suptitle mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{ __html: Data.subtitle }} />
                                 <h2 className="mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{ __html: Data.title }} />
                                 <p className="mil-up mil-mb-40" dangerouslySetInnerHTML={{ __html: Data.description }} />
-                                <a onClick={() => setOpen(true)} className="mil-link mil-upper mil-up has-popup-video" style={{ "cursor": "pointer" }}>
+                                {/* Updated to use Link */}
+                                <Link href="/insight" className="mil-link mil-upper mil-up has-popup-video" style={{ cursor: "pointer" }}>
                                     {Data.button.label}
                                     <span className="mil-arrow"><img src="/img/icons/2.svg" alt="arrow" /></span>
-                                </a>
+                                </Link>
                             </div>
 
                         </div>
@@ -48,7 +49,7 @@ const AboutSection = () => {
                 </div>
             </section>
 
-            <ModalVideo channel='youtube' isOpen={isOpen} videoId={Data.button.link.replace("https://www.youtube.com/watch?v=", "")} onClose={() => setOpen(false)} />
+            {/* <ModalVideo channel='youtube' isOpen={isOpen} videoId={Data.button.link.replace("https://www.youtube.com/watch?v=", "")} onClose={() => setOpen(false)} /> */}
             {/* about end */}
         </>
     );
