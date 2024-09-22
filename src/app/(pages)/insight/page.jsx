@@ -11,6 +11,7 @@ import ServicesTwoSection from "@components/sections/ServicesTwo";
 import IdeasGreenSection from "../../_components/sections/IdeasGreen";
 import ProductSpecification from "../../_components/sections/Product";
 import CompanyOneSlider from "../../_components/sliders/CompanyOne";
+import IdeasSection from "../../_components/sections/Ideas";
 
 
 const PartnersSlider = dynamic(() => import("@components/sliders/Partners"), { ssr: false });
@@ -37,8 +38,9 @@ const About = () => {
       <ServicesTwoSection />
       <ContactInfoSection />
 
-     <IdeasGreenSection />
-     <ProductSpecification />
+      <IdeasGreenSection />
+      {/* <IdeasSection /> */}
+      <ProductSpecification />
       <CompanyOneSlider />
       <CompanyTwoSlider />
       <CallToActionTwoSection />

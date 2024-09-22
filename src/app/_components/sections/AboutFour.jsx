@@ -14,10 +14,19 @@ const AboutFourSection = () => {
         <>
             {/* about */}
             <section>
-                <div className="container mil-p-0-30"  style={{ marginTop: "40px" }}>
+                <div className="container mil-p-0-30" style={{ marginTop: "40px" }}>
                     <div className="mil-background-grid mil-softened" />
 
-                    <div className="row justify-content-between align-items-center flex-sm-row-reverse">
+                    <div className="row justify-content-between align-items-center flex-sm-row">
+
+                        <div className="col-lg-5">
+
+                            <div className="mil-mb-90">
+                                <h2 className="mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{ __html: Data.title }} />
+                                <p className="mil-up mil-mb-40" dangerouslySetInnerHTML={{ __html: Data.description }} />
+                            </div>
+
+                        </div>
 
                         <div className="col-lg-6">
 
@@ -33,26 +42,9 @@ const AboutFourSection = () => {
 
                         </div>
 
-                        <div className="col-lg-5">
-
-                            <div className="mil-mb-90">
-                                {/* <span className="mil-suptitle mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.subtitle}} /> */}
-                                <h2 className="mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{ __html: Data.title }} />
-                                <p className="mil-up mil-mb-40" dangerouslySetInnerHTML={{ __html: Data.description }} />
-                                {/* <a onClick={() => setOpen(true)} className="mil-link mil-upper mil-up has-popup-video" style={{ "cursor": "pointer" }}>
-                                    {Data.button.label}
-                                    <span className="mil-arrow"><img src="/img/icons/2.svg" alt="arrow" /></span>
-                                </a> */}
-                            </div>
-
-                        </div>
-
                     </div>
                 </div>
             </section>
-
-            {/* <ModalVideo channel='youtube' isOpen={isOpen} videoId={Data.button.link.replace("https://www.youtube.com/watch?v=", "")} onClose={() => setOpen(false)} />
-            about end */}
         </>
     );
 };

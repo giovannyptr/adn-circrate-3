@@ -37,13 +37,11 @@ async function About() {
 
       <AboutFourSection />
   
-
       <VisionSection />
 
       <TeamMember />
 
       {/* <FeaturesTwoSection /> */}
-
       
       <CallToActionSection />
 

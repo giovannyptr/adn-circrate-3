@@ -16,15 +16,18 @@ const VisionSection = () => {
 
           <div className="row mil-mb-30">
             {Data.items.map((item, key) => (
-              <div className="col-lg-4 mil-up" key={`vision-item-${key}`}>
+              <div className="col-lg-4 col-md-6 col-12 mil-up" key={`vision-item-${key}`}>
                 <div className="mil-icon-box mil-center mil-mb-60">
                   <div className="mil-icon-xl mil-mb-30">
-                    <img src={item.icon} alt={item.title} style={{ width: "425.52px", height: "340px" }} />
+                    <img
+                      src={item.icon}
+                      alt={item.title}
+                      className="img-fluid"
+                      style={{ maxWidth: '100%', height: 'auto' }}
+                    />
                   </div>
                   <h5 className="mil-subtitle mil-mb-15">{item.subtitle}</h5>
                   <h4 className="mil-upper mil-mb-10">{item.title}</h4>
-                  {/* Add the subtitle here */}
-                  
                   <p>{item.text}</p>
                 </div>
               </div>

@@ -9,8 +9,7 @@ const ServicesTwoSection = () => {
                 <div className="container mil-p-120-60">
                     <div className="mil-background-grid mil-softened" />
 
-                    <div className="row justify-content-between align-items-center">
-                        {/* Title on the left */}
+                    <div className="row justify-content-between">
                         <div className="col-lg-6">
                             <div className="mil-mb-90">
                                 <h2
@@ -19,11 +18,10 @@ const ServicesTwoSection = () => {
                                 />
                             </div>
                         </div>
-
-                        {/* Description on the right */}
                         <div className="col-lg-6">
                             <p
                                 className="mil-mb-90"
+                                style={{ fontWeight: 'bold' }}
                                 dangerouslySetInnerHTML={{ __html: Data.description }}
                             />
                         </div>
@@ -32,7 +30,13 @@ const ServicesTwoSection = () => {
                     {/* Image below the title and description */}
                     <div className="row mt-4">
                         <div className="col-12 text-center">
-                            <img src="/img/16.png" alt="CO2 emission in cement production" className="img-fluid" />
+                            {/* <img src="/img/cement_process_before.png" alt="CO2 emission in cement production" className="img-fluid" /> */}
+                            <img
+                                src="/img/cement_process_before.png"
+                                alt="CO2 emission in cement production"
+                                className="img-fluid"
+                                style={{ maxWidth: '100%', height: 'auto', maxHeight: '400px' }}
+                            />
                         </div>
                     </div>
                 </div>
