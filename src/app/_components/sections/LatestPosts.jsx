@@ -1,9 +1,25 @@
-import Data from "@data/sections/latest-posts.json";
-import Date from '@library/date';
 import Link from "next/link";
 
-const LatestPostsSection = ( { posts, paddingTop } ) => {
-    
+const LatestPostsSection = ({ paddingTop }) => {
+    const posts = [
+        {
+            id: "post1",
+            title: "Singapore Concrete Institute Award",
+            category: "Awards",
+            image: "/img/ss1.png",  // Update with your actual image path
+            link: "https://cde.nus.edu.sg/cee/news-detail/sci-excellence-award-2022-won-by-nus-team-titled-on-improving-the-productivity-and-reducing-the-carbon-footprint-for-the-upscaling-of-waste-marine-clay/",
+            short: "Circrete team's solution wins Singapore Concrete Institute (SCI) Excellence Award."
+        },
+        {
+            id: "post2",
+            title: "Circrete Featured in CNA",
+            category: "News",
+            image: "/img/ss2.png",  // Update with your actual image path
+            link: "https://www.youtube.com/watch?v=W1EWKanznFU",
+            short: "Let's take a look at Circrete's innovation from CNA's report."
+        }
+    ];
+
     return (
         <>
             {/* blog */}
@@ -13,33 +29,23 @@ const LatestPostsSection = ( { posts, paddingTop } ) => {
 
                     <div className="row">
                         <div className="col-12">
-
                             <div className="mil-center mil-mb-90">
-                                {/* <span className="mil-suptitle mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.subtitle}} /> */}
-                                <h2 className="mil-upper mil-up mil-mb-30"  style={{ marginTop: "40px" }} dangerouslySetInnerHTML={{__html : Data.title}} />
-                                {/* <a href={Data.button.link} className="mil-link mil-upper mil-up">
-                                    {Data.button.label} 
-                                    <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span>
-                                </a> */}
+                                <h2 className="mil-upper mil-up mil-mb-30" style={{ marginTop: "40px" }}>News and Social Media</h2>
                             </div>
-
                         </div>
-                        {posts.slice(0, Data.numOfItems).map((item, key) => (
-                        <div className="col-lg-6" key={`blog-post-${key}`}>
-
-                            <Link href={`/blog/${item.id}`} className="mil-blog-card mil-mb-60">
-                                <div className="mil-cover mil-up mil-long">
-                                    <img src={item.image} alt={item.title} />
-                                    {/* <div className="mil-date"><Date dateString={item.date} /></div> */}
-                                </div>
-                                <div className="mil-description">
-                                    <span className="mil-suptitle mil-upper mil-up mil-mb-30">{item.category}</span>
-                                    <h4 className="mil-upper mil-up mil-mb-30">{item.title}</h4>
-                                    <p className="mil-up">{item.short}</p>
-                                </div>
-                            </Link>
-
-                        </div>
+                        {posts.map((item, key) => (
+                            <div className="col-lg-6" key={`blog-post-${key}`}>
+                                <Link href={item.link} className="mil-blog-card mil-mb-60">
+                                    <div className="mil-cover mil-up mil-long">
+                                        <img src={item.image} alt={item.title} style={{ width: '100%', height: '300px', objectFit: 'cover' }} />
+                                    </div>
+                                    <div className="mil-description" style={{ textAlign: 'center', padding: '20px' }}>
+                                        <span className="mil-suptitle mil-upper mil-up mil-mb-10">{item.category}</span>
+                                        <h4 className="mil-upper mil-up mil-mb-10">{item.title}</h4>
+                                        <p>{item.short}</p>
+                                    </div>
+                                </Link>
+                            </div>
                         ))}
                     </div>
                 </div>

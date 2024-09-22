@@ -1,6 +1,6 @@
 ---
 #preview
-title: 'Design a perfect home'
+title: 'Circrete Featured in CNA '
 date: '2022-04-02'
 image: "/img/n2.png"
 categories:
@@ -11,7 +11,7 @@ tags:
     - Development
     - UI
 author: Charlie Williams
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+short: Let's take a look at Circrete's innovation from CNA's report.
 
 #full details
 introTitle: Design a <span class="mil-accent">perfect</span> home

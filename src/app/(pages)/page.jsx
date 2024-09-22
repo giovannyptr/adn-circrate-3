@@ -17,13 +17,13 @@ import LatestPostsSection from "@components/sections/LatestPosts";
 import CoresSection from "@components/sections/Cores";
 import SolvingSection from "../_components/sections/Solving";
 
-const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
+const PartnersSlider = dynamic(() => import("@components/sliders/Partners"), { ssr: false });
 
 export const metadata = {
   title: {
-		default: AppData.settings.siteName,
-		template: "%s | " + AppData.settings.siteName,
-	},
+    default: AppData.settings.siteName,
+    template: "%s | " + AppData.settings.siteName,
+  },
   description: AppData.settings.siteDescription,
 }
 
@@ -44,10 +44,10 @@ async function Home1() {
       <Suspense fallback={<div>Loading...</div>}>
         <LatestProjectsSection projects={projects} />
       </Suspense>
-      
-      <Suspense fallback={<div>Loading...</div>}>
-        <LatestPostsSection posts={posts} />
-      </Suspense>
+
+
+      <LatestPostsSection posts={posts} />
+
       {/* <CoresSection /> */}
     </>
   );

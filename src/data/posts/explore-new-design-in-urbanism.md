@@ -1,6 +1,7 @@
 ---
 #preview
-title: 'Explore new design in urbanism'
+title: 'Singapore Concrete Institute Award '
+link: 'https://cde.nus.edu.sg/cee/news-detail/sci-excellence-award-2022-won-by-nus-team-titled-on-improving-the-productivity-and-reducing-the-carbon-footprint-for-the-upscaling-of-waste-marine-clay/'
 date: '2022-04-02'
 image: "/img/n1.png"
 categories:
@@ -10,7 +11,7 @@ tags:
     - UI
     - Design
 author: Nguta Ithya
-short: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sequi commodi dignissimos.
+short: Circrete team's solution wins Singapore Concrete Institute (SCI) Excellence Award.
 
 #full details
 introTitle: Explore new <span class="mil-accent">design</span><br> in urbanism
