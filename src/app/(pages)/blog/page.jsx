@@ -1,13 +1,9 @@
 import Link from "next/link";
+import Image from "next/image";
 import PageBanner from "@components/PageBanner";
-import DiscoverSection from '../../_components/sections/Discover';
+import DiscoverSection from "../../_components/sections/Discover";
 
 const Blog = () => {
-    const categories = [
-        { id: 'concrete-tech', title: 'Concrete Technology' },
-        { id: 'sustainability', title: 'Sustainability' }
-    ];
-
     const posts = [
         {
             id: "post1",
@@ -42,25 +38,26 @@ const Blog = () => {
                     <div className="mil-background-grid mil-softened"></div>
                     <div className="row justify-content-between">
                         <div className="col-lg-12">
-                            {/* Blog Filter */}
-                            <div className="mil-filter mil-up mil-mb-90">
-                                <div className="mil-filter-links">
-                                    <Link href="/blog" className="mil-current">All</Link>
-                                    {categories.map((item, key) => (
-                                        <Link key={`categories-item-${key}`} href={`/blog/category/${item.id}`}>
-                                            {item.title}
-                                        </Link>
-                                    ))}
-                                </div>
-                            </div>
 
                             {/* Blog Entries in a Flexbox */}
                             <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap' }}>
                                 {posts.map((post, index) => (
-                                    <a key={index} href={post.link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit', flex: '1 1 calc(50% - 20px)', marginBottom: '20px' }}>
+                                    <a
+                                        key={index}
+                                        href={post.link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        style={{ textDecoration: 'none', color: 'inherit', flex: '1 1 calc(50% - 20px)', marginBottom: '20px' }}
+                                    >
                                         <div className="mil-blog-card" style={{ border: '1px solid #ddd', padding: '15px', borderRadius: '10px' }}>
-                                            <div className="mil-cover mil-up" style={{ overflow: 'hidden' }}>
-                                                <img src={post.image} alt={post.title} style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
+                                            <div className="mil-cover mil-up" style={{ overflow: 'hidden', position: 'relative', minHeight: '320px' }}>
+                                                <Image
+                                                    src={post.image}
+                                                    alt={post.title}
+                                                    layout="fill"
+                                                    objectFit="cover"
+                                                    quality={75}
+                                                />
                                             </div>
                                             <div className="mil-description" style={{ textAlign: 'center', padding: '20px' }}>
                                                 <h4 className="mil-upper mil-up" style={{ marginBottom: "10px", fontSize: "24px" }}>{post.title}</h4>

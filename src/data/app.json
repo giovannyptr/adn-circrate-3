@@ -27,7 +27,7 @@
             },
             {
                 "label": "Our Solution",
-                "link": "/insight"
+                "link": "/our-solution"
                 
             },
             {
@@ -60,14 +60,14 @@
             },
             {
                 "label": "Our Solution",
-                "link": "/insight"
+                "link": "/our-solution"
             },
             {
                 "label": "Blog",
                 "link": "/blog"
             },
             {
-                "label": "Partnerhiop",
+                "label": "Partnership",
                 "link": "/partnership"
             }
         ]
