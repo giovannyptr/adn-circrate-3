@@ -18,7 +18,7 @@ const ContactInfoSection = () => {
                                 />
                             </div>
                         </div>
-                        <div className="col-lg-6" style={{ marginTop: "2rem" }}>
+                        <div className="col-lg-6">
                             {Data.description2 && (
                                 <div className="mil-mb-30">
                                     <p
@@ -69,7 +69,7 @@ const ContactInfoSection = () => {
                                         src={Data.image2.url}
                                         alt={Data.image2.alt}
                                         className="img-fluid"
-                                        style={{ maxWidth: '100%', height: 'auto', maxHeight: '400px' }}
+                                        style={{ maxWidth: '100%', height: 'auto', }}
                                     />
                                 </div>
                             )}

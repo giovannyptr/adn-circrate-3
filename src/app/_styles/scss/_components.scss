@@ -65,7 +65,7 @@ background grid
     @media screen and (max-width: 768px) {
         &:before {
             border: none;
-            width: 1px;
+            width: 0px; // FUCK!
             background-color: #545454;
         }
     }
@@ -1787,7 +1787,7 @@ inputs
         color: $light;
         background-color: transparent;
         border: none;
-        border-bottom: solid 1px $lt-10;
+        // border-bottom: solid 1px $lt-10;
         transition: $t-md;
 
         &::placeholder {
@@ -1804,7 +1804,7 @@ inputs
 
         &:focus {
             outline: inherit;
-            border-bottom: solid 1px $lt-40;
+            // border-bottom: solid 1px $lt-40;
         }
     }
 
@@ -1812,7 +1812,7 @@ inputs
 
         & input,
         & textarea {
-            border-bottom: solid 1px $dark;
+            // border-bottom: solid 1px $dark;
             color: $dark;
 
             &:focus {
@@ -1846,7 +1846,7 @@ inputs
             margin-right: 15px;
             display: inline-block;
             vertical-align: text-top;
-            border: solid 1px $light;
+            // border: solid 1px $light;
             border-radius: 2px;
             width: 20px;
             height: 20px;
@@ -1856,12 +1856,12 @@ inputs
 
         &:hover + label:before {
             background: $lt-10;
-            border: solid 1px $accent;
+            // border: solid 1px $accent;
         }
 
         &:checked + label:before {
             background: $accent;
-            border: solid 1px $accent;
+            // border: solid 1px $accent;
         }
 
         &:disabled + label {
@@ -1901,7 +1901,7 @@ inputs
 
             &:checked + label:before {
                 background: $accent;
-                border: solid 1px $accent;
+                // border: solid 1px $accent;
             }
         }
     }
@@ -2192,7 +2192,7 @@ sidebar
         padding: 0 30px;
         font-size: $text;
         font-family: $font-1;
-        border: solid 1px $dt-10;
+        // border: solid 1px $dt-10;
 
         &::placeholder {
             font-size: $text;
@@ -2605,7 +2605,7 @@ timer
             display: block;
             width: 80px;
             height: 80px;
-            border: solid 1px $accent;
+            // border: solid 1px $accent;
             border-radius: 50%;
             display: flex;
             align-items: center;
