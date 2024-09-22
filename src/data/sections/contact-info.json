@@ -8,14 +8,18 @@
     "description2": "Circrete’s innovative approach transforms the process:",
     "littletitle3": "8% of Global Carbon Emissions",
     "description3": "Cement industry’s contribution",
-    "description": "Explore our innovative ideas.",
+    "description": "Circrete reduces CO₂ emissions by up to 70% compared <br> to conventional cement while delivering better performance.",
     "image": {
-        "url": "/img/16.png",
-        "alt": "A creative hand illustration"
+        "url": "/img/cement_process_before.png",
+        "alt": "cement_process_before"
     },
     "image2": {
-        "url": "/img/ss1.png",
-        "alt": "A secondary image"
+        "url": "/img/circrete_bar_graph.svg",
+        "alt": "Cement"
+    },
+    "image3": {
+        "url": "/img/cement_process_after.png",
+        "alt": "cement_process_after"
     },
     "items": [
         "0% CO₂ from Calcination",

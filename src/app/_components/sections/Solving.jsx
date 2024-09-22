@@ -12,11 +12,16 @@ const SolvingSection = () => {
                     <div className="row justify-content-between">
                         <div className="col-lg-6">
                             <div>
-                                <h2 className="mil-upper mil-up mil-mb-40"  style={{ marginTop: "40px" }} dangerouslySetInnerHTML={{ __html: Data.title }} />
+                                <h2 className="mil-upper mil-up mil-mb-40" style={{ marginTop: "40px" }} dangerouslySetInnerHTML={{ __html: Data.title }} />
                                 {/* Check if image exists and render it */}
                                 {Data.image && (
-                                    <div className="mil-mb-30">
-                                        <img src={Data.image.url} alt={Data.image.alt} className="img-fluid" />
+                                    <div className="mil-mb-30" style={{ textAlign: 'center' }}>
+                                        <img
+                                            src={Data.image.url}
+                                            alt={Data.image.alt}
+                                            className="img-fluid"
+                                            style={{ maxWidth: '100%', height: 'auto' }}
+                                        />
                                     </div>
                                 )}
                                 <span className="mil-suptitle mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{ __html: Data.subtitle }} />
@@ -36,16 +41,22 @@ const SolvingSection = () => {
                         <div className="col-lg-5 mil-mt-suptitle-offset">
                             {/* Add image2 on top of the description */}
                             {Data.image2 && (
-                                <div className="mil-mb-30">
-                                    <img src={Data.image2.url} alt={Data.image2.alt} className="img-fluid" />
+                                <div className="mil-mb-30" style={{ textAlign: 'center' }}>
+                                    <img
+                                        src={Data.image2.url}
+                                        alt={Data.image2.alt}
+                                        className="img-fluid"
+                                        style={{ maxWidth: '100%', height: 'auto' }}
+                                    />
                                 </div>
                             )}
+
 
                             {/* Add subtitle2 below image2 */}
                             {Data.subtitle2 && (
                                 <>
                                     <span className="mil-suptitle mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{ __html: Data.subtitle2 }} />
-                                    
+
                                     {/* Add littletitle2 and description2 below subtitle2 */}
                                     {Data.littletitle2 && (
                                         <div className="mil-mb-30">

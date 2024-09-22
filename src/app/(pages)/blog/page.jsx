@@ -8,6 +8,7 @@ import ContactForm from '../../_components/sections/ContactForm';
 import { getSortedCategoriesData } from "@library/categories";
 import { getPaginatedPostsData, getFeaturedPostsData } from "@library/posts";
 import PopularsPostsData from "@data/sections/popular-posts.json";
+import DiscoverSection from '../../_components/sections/Discover';
 
 export const metadata = {
   title: {
@@ -55,7 +56,7 @@ async function Blog() {
               {/* You can add sidebar or additional content here */}
             </div>
 
-            <ContactForm />
+            <DiscoverSection />
           </div>
         </div>
       </section>

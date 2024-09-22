@@ -35,10 +35,11 @@ const About = () => {
         bgImage={"/img/covers/solution.png"}
       />
       <ServicesTwoSection />
+      {/* <span className="mil-suptitle mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{ __html: '' }} /> */}
       <ContactInfoSection />
 
-     <IdeasGreenSection />
-     <ProductSpecification />
+      <IdeasGreenSection />
+      <ProductSpecification />
       <CompanyOneSlider />
       <CompanyTwoSlider />
       <CallToActionTwoSection />

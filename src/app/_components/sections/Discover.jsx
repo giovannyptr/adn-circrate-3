@@ -1,7 +1,13 @@
+"use client"; // Add this at the top of your file
+
+import React from "react"; // Import React if not already done
 import Data from "@data/sections/discover.json";
-import Link from "next/link";
 
 const DiscoverSection = () => {
+  const handleEmailClick = () => {
+    window.location.href = "mailto:circrete@gmail.com";
+  };
+
   return (
     <section style={{ backgroundColor: "#F1F5EB", paddingTop: "60px" }}>
       <div className="container mil-p-0-90">
@@ -24,12 +30,16 @@ const DiscoverSection = () => {
             />
 
             <div className="row">
-              <Link href={Data.button.link} className="mil-link mil-upper mil-up">
+              <button
+                onClick={handleEmailClick}
+                className="mil-link mil-upper mil-up"
+                style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}
+              >
                 {Data.button.label}
                 <span className="mil-arrow">
                   <img src="img/icons/1.svg" alt="arrow" />
                 </span>
-              </Link>
+              </button>
             </div>
           </div>
         </div>

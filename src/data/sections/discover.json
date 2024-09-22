@@ -1,26 +1,26 @@
 {
-  "title": "Discover More <br> About Our <br> Solutions",
-  "subtitle": "Ruizarch Purpuse",
-  "description": "Learn how Circrete is transforming the construction industry with sustainable solutions that cut CO₂ emissions by 70%.",
-  "button": {
-      "link": "/about",
-      "label": "Learn More"
-  },
-  "items": [
-      {
-          "icon": "/img/icons/3.svg",
-          "link": "/services/service-1",
-          "label": "Architecture"
-      },
-      {
-          "icon": "/img/icons/4.svg",
-          "link": "/services/service-2",
-          "label": "Interiors"
-      },
-      {
-          "icon": "/img/icons/5.svg",
-          "link": "/services/service-3",
-          "label": "Planning"
-      }
-  ]
+    "title": "Discover More <br> About Our <br> Solutions",
+    "subtitle": "Circrete Purpose",
+    "description": "Learn how Circrete is transforming the construction industry with sustainable solutions that cut CO₂ emissions by 70%.",
+    "button": {
+        "link": "mailto:circrete@gmail.com",
+        "label": "Email Us"
+    },
+    "items": [
+        {
+            "icon": "/img/icons/3.svg",
+            "link": "/services/service-1",
+            "label": "Architecture"
+        },
+        {
+            "icon": "/img/icons/4.svg",
+            "link": "/services/service-2",
+            "label": "Interiors"
+        },
+        {
+            "icon": "/img/icons/5.svg",
+            "link": "/services/service-3",
+            "label": "Planning"
+        }
+    ]
 }

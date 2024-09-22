@@ -1,32 +1,31 @@
 {
-    "subtitle": "Why Choose Circrete",
-    "title": "Circrete Advantages",
-    "items": [
-      {
-        "title": "70% less CO2",
-        "link": "/services/sustainable-energy",
-        "icon": "/img/icons/energy.svg",
-        "label": "Clean Energy Solutions"
-      },
-      {
-        "title": "Abundant local supply",
-        "link": "/services/eco-friendly-architecture",
-        "icon": "",
-        "label": "Green Building Design"
-      },
-      {
-        "title": "Compatible with all constitution of concrete mix material",
-        "link": "/services/eco-friendly-architecture",
-        "icon": "",
-        "label": "Green Building Design"
-      },
-      {
-        "title": "300% improvement in durability",
-        "link": "/services/eco-friendly-architecture",
-        "icon": "",
-        "label": "Green Building Design"
-      }
-    ],
-    "image": "/img/home.png"
-  }
-  
+  "subtitle": "Why Choose Circrete",
+  "title": "Circrete Advantages",
+  "items": [
+    {
+      "title": "70% less CO2",
+      "link": "",
+      "icon": "/img/icons/energy.svg",
+      "label": "Clean Energy Solutions"
+    },
+    {
+      "title": "Abundant local supply",
+      "link": "",
+      "icon": "",
+      "label": "Green Building Design"
+    },
+    {
+      "title": "Compatible with all constitution of concrete mix material",
+      "link": "",
+      "icon": "",
+      "label": "Green Building Design"
+    },
+    {
+      "title": "300% improvement in durability",
+      "link": "",
+      "icon": "",
+      "label": "Green Building Design"
+    }
+  ],
+  "image": "/img/home.png"
+}

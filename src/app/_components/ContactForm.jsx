@@ -101,7 +101,7 @@ const ContactForm = ( { subtitleOffset } ) => {
                     </div>
 
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-12">
 
                     <div className="mil-input-frame mil-dark-input mil-up mil-mb-30">
                         <label className="mil-upper"><span>Phone</span><span className="mil-required">*</span></label>
@@ -113,22 +113,6 @@ const ContactForm = ( { subtitleOffset } ) => {
                             onChange={handleChange}
                             onBlur={handleBlur}
                             value={values.tel} 
-                        />
-                    </div>
-
-                </div>
-                <div className="col-lg-6">
-
-                    <div className="mil-input-frame mil-dark-input mil-up mil-mb-30">
-                        <label className="mil-upper"><span>Budget</span><span className="mil-required">*</span></label>
-                        <input 
-                            type="text" 
-                            placeholder="Enter Your Budget Here"
-                            name="budget"
-                            required="required"
-                            onChange={handleChange}
-                            onBlur={handleBlur}
-                            value={values.budget} 
                         />
                     </div>
 
