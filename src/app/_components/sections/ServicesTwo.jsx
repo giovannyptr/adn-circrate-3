@@ -35,7 +35,7 @@ const ServicesTwoSection = () => {
                                 src="/img/cement_process_before.png"
                                 alt="CO2 emission in cement production"
                                 className="img-fluid"
-                                style={{ maxWidth: '100%', height: 'auto', maxHeight: '400px' }}
+                                style={{ maxWidth: '100%', height: 'auto' }}
                             />
                         </div>
                     </div>

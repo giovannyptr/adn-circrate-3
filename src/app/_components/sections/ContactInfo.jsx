@@ -69,7 +69,7 @@ const ContactInfoSection = () => {
                                         src={Data.image2.url}
                                         alt={Data.image2.alt}
                                         className="img-fluid"
-                                        style={{ maxWidth: '100%', height: 'auto', maxHeight: '400px' }}
+                                        style={{ maxWidth: '100%', height: 'auto', }}
                                     />
                                 </div>
                             )}
