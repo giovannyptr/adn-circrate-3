@@ -23,7 +23,13 @@ const VisionSection = () => {
                       src={item.icon}
                       alt={item.title}
                       className="img-fluid"
-                      style={{ maxWidth: '100%', height: 'auto' }}
+                      style={{
+                        maxWidth: '100%',
+                        height: 'auto',
+                        width: '380px',  // Set the width to 380px
+                        height: '380px', // Set the height to 380px
+                        objectFit: 'cover', // Crops the image to fill the 380x380px area
+                      }}
                     />
                   </div>
                   <h5 className="mil-subtitle mil-mb-10">{item.subtitle}</h5> {/* Reduced margin bottom from 15px to 10px */}
@@ -47,7 +53,7 @@ const VisionSection = () => {
               </div>
             ))}
           </div>
-          
+
         </div>
       </section>
       {/* vision end */}

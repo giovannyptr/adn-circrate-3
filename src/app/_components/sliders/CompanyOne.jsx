@@ -14,27 +14,10 @@ const CompanyOneSlider = () => {
         <div className="container mil-p-0-30">
           <div className="mil-background-grid mil-softened" />
 
-          <div className="row justify-content-between align-items-center flex-sm-row-reverse">
-
-            <div className="col-lg-6">
-
-              {/* Single image display with 100% width, margin-top, and space from the top */}
-              {firstItem && (
-                <div className="mil-illustration mil-up mil-mb-90" style={{ paddingTop: "20px", marginTop: "40px" }}>
-                  <div className="mil-image-frame">
-                    <img 
-                      src={firstItem.image} 
-                      alt={firstItem.alt} 
-                      style={{ width: "100%", height: "auto" }} // Ensures 100% width with responsive height
-                    />
-                  </div>
-                </div>
-              )}
-
-            </div>
+          <div className="row justify-content-between align-items-center">
 
             <div className="col-lg-5">
-              <div className="mil-mb-90">
+              <div className="mil">
                 <h2
                   className="mil-upper mil-up mil-mb-30"
                   dangerouslySetInnerHTML={{ __html: Data.title }}
@@ -44,6 +27,23 @@ const CompanyOneSlider = () => {
                   dangerouslySetInnerHTML={{ __html: Data.description }}
                 />
               </div>
+            </div>
+
+            <div className="col-lg-6">
+
+              {/* Single image display with 100% width, margin-top, and space from the top */}
+              {firstItem && (
+                <div className="mil-illustration mil-up mil" style={{ paddingTop: "20px", marginTop: "40px" }}>
+                  <div className="mil-image-frame">
+                    <img
+                      src={firstItem.image}
+                      alt={firstItem.alt}
+                      style={{ width: "100%", height: "auto" }} // Ensures 100% width with responsive height
+                    />
+                  </div>
+                </div>
+              )}
+
             </div>
 
           </div>
