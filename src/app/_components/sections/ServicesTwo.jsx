@@ -11,7 +11,7 @@ const ServicesTwoSection = () => {
 
                     <div className="row justify-content-between">
                         <div className="col-lg-6">
-                            <div className="mil-mb-90">
+                            <div className="mil">
                                 <h2
                                     className="mil-upper mil-up mil-mb-30"
                                     dangerouslySetInnerHTML={{ __html: Data.title }}
@@ -20,7 +20,7 @@ const ServicesTwoSection = () => {
                         </div>
                         <div className="col-lg-6">
                             <p
-                                className="mil-mb-90"
+                                className="mil"
                                 style={{ fontWeight: 'bold' }}
                                 dangerouslySetInnerHTML={{ __html: Data.description }}
                             />
