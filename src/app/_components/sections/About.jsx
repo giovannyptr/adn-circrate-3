@@ -25,7 +25,7 @@ const AboutSection = () => {
                                 <h2 className="mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{ __html: Data.title }} />
                                 <p className="mil-up mil-mb-40" dangerouslySetInnerHTML={{ __html: Data.description }} />
                                 {/* Updated to use Link */}
-                                <Link href="/insight" className="mil-link mil-upper mil-up has-popup-video" style={{ cursor: "pointer" }}>
+                                <Link href="/our-solution" className="mil-link mil-upper mil-up has-popup-video" style={{ cursor: "pointer" }}>
                                     {Data.button.label}
                                     <span className="mil-arrow"><img src="/img/icons/2.svg" alt="arrow" /></span>
                                 </Link>

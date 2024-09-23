@@ -11,7 +11,7 @@ const ContactInfoSection = () => {
 
                     <div className="row justify-content-between">
                         <div className="col-lg-6">
-                            <div className="mil-mb-90">
+                            <div className="mil">
                                 <h2
                                     className="mil-upper mil-up mil-mb-30"
                                     dangerouslySetInnerHTML={{ __html: Data.title }}
@@ -61,7 +61,13 @@ const ContactInfoSection = () => {
                     </div>
 
                     <div className="row justify-content-between">
-                        {/* Render image2 with sizing */}
+                        <div className="col-lg-6" style={{ marginTop: '5rem' }}>
+                            <p
+                                className="mil"
+                                style={{ fontWeight: 'bold' }}
+                                dangerouslySetInnerHTML={{ __html: Data.description }}
+                            />
+                        </div>
                         <div className="col-lg-6">
                             {Data.image2 && (
                                 <div className="mil-mb-30">
@@ -74,15 +80,6 @@ const ContactInfoSection = () => {
                                 </div>
                             )}
                         </div>
-
-                        <div className="col-lg-6" style={{ marginTop: '5rem' }}>
-                            <p
-                                className="mil-mb-90"
-                                style={{ fontWeight: 'bold' }}
-                                dangerouslySetInnerHTML={{ __html: Data.description }}
-                            />
-                        </div>
-
                     </div>
                 </div>
             </section>
