@@ -8,7 +8,7 @@
     },
     "numbers": [
         {
-            "value": "15+ years",
+            "value": "8 years",
             "afterValue": "+",
             "label": "R&D Process"
         },
@@ -16,16 +16,6 @@
             "value": "70%",
             "afterValue": "k+",
             "label": "Reduce CO2"
-        },
-        {
-            "value": "5+",
-            "afterValue": "+",
-            "label": "Happy Clients"
-        },
-        {
-            "value": "4",
-            "afterValue": "+",
-            "label": "Patented technology"
         }
     ]
 }
