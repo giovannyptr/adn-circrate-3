@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /admin
 
-Sitemap:https://www.circrete.co/sitemap.xml
+Sitemap:https://circrete.co/sitemap.xml
