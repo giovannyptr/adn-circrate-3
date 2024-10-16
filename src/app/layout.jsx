@@ -26,7 +26,7 @@ export const metadata = {
     google: "elfrZq5dcnwMuOgckI-yZD9Nm7tqNusmnG9Cz4E3lWA",
   },
   keywords: [
-    "Circrate", 
+    "Circrete", 
     "green cement", 
     "sustainable building", 
     "eco-friendly cement", 
@@ -38,14 +38,14 @@ export const metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://circrete.co',
-    title: 'Circrate Green Cement | 70% CO2 Reduction for Sustainable Building',
-    description: 'Circrate Green Cement offers eco-friendly solutions with 70% CO2 reduction for sustainable building.',
+    title: 'Circrete Green Cement | 70% CO2 Reduction for Sustainable Building',
+    description: 'Circrete Green Cement offers eco-friendly solutions with 70% CO2 reduction for sustainable building.',
     images: [
       {
         url: 'https://www.circrete.co/images/logo.png',
         width: 800,
         height: 600,
-        alt: 'Circrate Green Cement Logo',
+        alt: 'Circrete Green Cement Logo',
       }
     ],
   },
@@ -56,14 +56,14 @@ const Layouts = ({ children }) => {
     <html lang="en">
       <Head>
         <meta name="google-site-verification" content="elfrZq5dcnwMuOgckI-yZD9Nm7tqNusmnG9Cz4E3lWA" />
-        <meta name="description" content="Circrate Green Cement offers eco-friendly building solutions with 70% CO2 reduction. Join us in promoting sustainable construction with Circrate's innovative cement technology." />
+        <meta name="description" content="Circrete Green Cement offers eco-friendly building solutions with 70% CO2 reduction. Join us in promoting sustainable construction with Circrete's innovative cement technology." />
         <meta name="robots" content="index, follow" />
-        <meta name="keywords" content="Circrate, green cement, sustainable building, eco-friendly cement, CO2 reduction, low-carbon cement, green construction" />
+        <meta name="keywords" content="Circrete, green cement, sustainable building, eco-friendly cement, CO2 reduction, low-carbon cement, green construction" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:url" content="https://circrete.co" />
-        <meta property="og:title" content="Circrate Green Cement | 70% CO2 Reduction for Sustainable Building" />
-        <meta property="og:description" content="Circrate Green Cement offers eco-friendly solutions with 70% CO2 reduction for sustainable building." />
+        <meta property="og:title" content="Circrete Green Cement | 70% CO2 Reduction for Sustainable Building" />
+        <meta property="og:description" content="Circrete Green Cement offers eco-friendly solutions with 70% CO2 reduction for sustainable building." />
         <meta property="og:image" content="https://www.circrete.co/images/logo.png" />
         <link rel="canonical" href="https://circrete.co" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{
@@ -72,8 +72,8 @@ const Layouts = ({ children }) => {
             "@type": "Organization",
             "url": "https://circrete.co",
             "logo": "https://www.circrete.co/images/logo.png",
-            "name": "Circrate Green Cement",
-            "description": "Circrate Green Cement offers eco-friendly solutions with 70% CO2 reduction for sustainable building.",
+            "name": "Circrete Green Cement",
+            "description": "Circrete Green Cement offers eco-friendly solutions with 70% CO2 reduction for sustainable building.",
             "email": "circrete@gmail.com",
             "telephone": "(773) 238 7162",
             "address": {
