@@ -28,7 +28,7 @@ async function Home1() {
     <>
       {/* Add Head component here */}
       <Head>
-        <title>Circrate Green Cement | 70% CO2 Reduction for Sustainable Building</title>
+        <title>Circrete Green Cement | 70% CO2 Reduction for Sustainable Building</title>
         <meta name="google-site-verification" content="elfrZq5dcnwMuOgckI-yZD9Nm7tqNusmnG9Cz4E3lWA" />
         <meta name="description" content="Circrate Green Cement offers eco-friendly building solutions with 70% CO2 reduction. Join us in promoting sustainable construction with Circrate's innovative cement technology." />
         <meta name="robots" content="index, follow" />
