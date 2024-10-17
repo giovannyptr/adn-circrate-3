@@ -18,10 +18,10 @@ import AppData from "@data/app.json";
 export const metadata = {
   metadataBase: new URL('https://circrete.co'), // Set your production domain here
   title: {
-    default: AppData.settings.siteName,
-    template: `%s | ${AppData.settings.siteName}`,
+    default: 'Green Cement for Sustainable Building Cut 70% CO2 | Circrete',
+    template: `%s | Green Cement for Sustainable Building Cut 70% CO2 | Circrete`,
   },
-  description: AppData.settings.siteDescription,
+  description: "Circrete's green cement solutions emphasize the 70% CO2 reduction, promoting sustainable building.",
   verification: {
     google: "elfrZq5dcnwMuOgckI-yZD9Nm7tqNusmnG9Cz4E3lWA",
   },
@@ -39,7 +39,7 @@ export const metadata = {
     locale: 'en_US',
     url: 'https://circrete.co',
     title: 'Circrete Green Cement | 70% CO2 Reduction for Sustainable Building',
-    description: 'Circrete Green Cement offers eco-friendly solutions with 70% CO2 reduction for sustainable building.',
+    description: "Circrete's green cement solutions emphasize the 70% CO2 reduction, promoting sustainable building.",
     images: [
       {
         url: 'https://www.circrete.co/images/logo.png',
@@ -49,7 +49,22 @@ export const metadata = {
       }
     ],
   },
+  additionalMeta: [
+    { 
+      name: 'description', 
+      content: "Circrete's green cement solutions emphasize the 70% CO2 reduction, promoting sustainable building." 
+    },
+    { 
+      name: 'robots', 
+      content: 'index, follow' 
+    },
+    { 
+      rel: 'canonical', 
+      href: 'https://www.circrete.co' 
+    },
+  ],
 };
+
 
 const Layouts = ({ children }) => {
   return (
